@@ -97,7 +97,6 @@ async fn main() -> std::io::Result<()> {
     .await
 }
 
-
 use cookie::{Cookie, CookieJar};
 
 fn use_cookie_without_secure() {

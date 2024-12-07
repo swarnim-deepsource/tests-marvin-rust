@@ -7,7 +7,7 @@ impl A {
 }
 
 impl Default for A {
-        fn default() -> Self {
+    fn default() -> Self {
         Self::new()
     }
 }
@@ -26,7 +26,7 @@ impl B {
 }
 
 impl Default for B {
-        fn default() -> Self {
+    fn default() -> Self {
         Self::new().with_zero()
     }
 }
@@ -60,7 +60,7 @@ impl D {
 }
 
 impl Default for D {
-        fn default() -> Self {
+    fn default() -> Self {
         Self::new().with_zero()
     }
 }

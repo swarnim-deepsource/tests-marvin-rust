@@ -12,5 +12,5 @@ struct RandomType {
 }
 
 impl RandomType {
-    fn resize(&mut self, _x : i32, _y : i32) {}
+    fn resize(&mut self, _x: i32, _y: i32) {}
 }

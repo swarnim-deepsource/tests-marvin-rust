@@ -1,4 +1,3 @@
-
 #[rustfmt::skip]
 mod must_use_unit {
     type T = ();

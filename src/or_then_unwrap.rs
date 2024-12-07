@@ -1,4 +1,5 @@
-/* disables = ["map-identity"] */ #[rustfmt::skip]
+/* disables = ["map-identity"] */
+#[rustfmt::skip]
 mod test {
     struct SomeStruct;
     impl SomeStruct {
