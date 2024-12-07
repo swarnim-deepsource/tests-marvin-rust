@@ -41,6 +41,7 @@ mod ok_expect;
 mod ok_is_some;
 mod option_env_unwrap;
 mod or_then_unwrap;
+mod osstring_str_map;
 mod permission_readonly_false;
 mod print_in_debug_impl;
 mod print_in_format_impl;
@@ -66,6 +67,5 @@ mod unwrap_or_else_default;
 mod vec_deque_make_contiguous;
 mod vec_get_first;
 mod vec_resize_zero;
-mod osstring_str_map;
 
 fn main() {}

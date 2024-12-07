@@ -1,7 +1,7 @@
 fn foo() {
-    let a : i32 = 8;
-        let b = a.clone();
-        let c = (&a).clone();
+    let a: i32 = 8;
+    let b = a.clone();
+    let c = (&a).clone();
     let d = String::from("Hi there");
     let dr = &d;
     let e = d.clone();

@@ -1,15 +1,16 @@
-
 pub struct A {
     b: i32,
     c: u32,
 }
 
-/** Hello */ pub struct B {
+/** Hello */
+pub struct B {
     pub b: i32,
     c: u32,
 }
 
-/** Hello again */ pub struct C {
+/** Hello again */
+pub struct C {
     pub b: i32,
     pub c: u32,
 }
@@ -20,12 +21,14 @@ pub enum D {
     F(u32),
 }
 
-/** Hello a third time */ pub enum E {
+/** Hello a third time */
+pub enum E {
     RecordE { a: i32, b: u32 },
     TupleE(i32),
 }
 
-/** If I say hello again you'll kill me */ pub enum F {
+/** If I say hello again you'll kill me */
+pub enum F {
     RecordE { a: i32, b: u32 },
     RecordF { a: i32, b: u32 },
     UnitE,
@@ -36,12 +39,14 @@ pub union G {
     c: u32,
 }
 
-/** I'm gonna say it anyways */ pub union H {
+/** I'm gonna say it anyways */
+pub union H {
     pub b: i32,
     c: u32,
 }
 
-/** Hello, is there anybody in there */ pub union I {
+/** Hello, is there anybody in there */
+pub union I {
     pub b: i32,
     pub c: u32,
 }
@@ -49,7 +54,7 @@ pub union G {
 pub trait TestDocs {
     const TEST: usize;
     type Test;
-        fn test();
+    fn test();
 }
 
 pub static S: &str = "hello world";
@@ -95,7 +100,7 @@ pub union L {
 
 union PrivateE {
     x: i32,
-    y: u32
+    y: u32,
 }
 
 #[doc(hidden)]

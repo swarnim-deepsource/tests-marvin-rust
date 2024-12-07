@@ -1,4 +1,3 @@
-
 #[rustfmt::skip]
 fn f() {
           let m = ["test", "ing"].join("");
@@ -7,13 +6,13 @@ fn f() {
 }
 
 fn t(sl: &[&str]) -> String {
-          sl.join("")
+    sl.join("")
 }
 
 fn no_match() {
-     let _ = ["test", "ing"].join(" ");
-     let _ = ["test", "ing"].join("-");
-     let _ = ["test", "ing"].concat();
-     let a = ["test", "ing"];
-     a.join("*");
+    let _ = ["test", "ing"].join(" ");
+    let _ = ["test", "ing"].join("-");
+    let _ = ["test", "ing"].concat();
+    let a = ["test", "ing"];
+    a.join("*");
 }

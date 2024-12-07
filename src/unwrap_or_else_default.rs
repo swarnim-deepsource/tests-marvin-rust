@@ -1,4 +1,5 @@
-/* disables = ['empty-tuple'] */ #[rustfmt::skip]
+/* disables = ['empty-tuple'] */
+#[rustfmt::skip]
 fn f() {
     struct Foo;
 
